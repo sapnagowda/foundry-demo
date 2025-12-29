@@ -1,4 +1,5 @@
 openai
 agent_framework
 python-dotenv
-azd
+azure-ai-projects
+azure-identity
