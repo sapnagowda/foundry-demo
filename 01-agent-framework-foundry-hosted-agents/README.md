@@ -29,6 +29,8 @@ The mental model is: *an agent is an application that happens to call Azure-host
 
 This is the configuration-first model: you define the agent’s identity, instructions, tools, and grounding, but execution happens inside a shared managed runtime. You don’t deploy software, and you can’t bring arbitrary dependencies. That’s an intentional trade: speed and UX abstraction over runtime control.
 
+Example (non-hosted agents / classic): https://learn.microsoft.com/en-us/azure/ai-foundry/agents/quickstart?view=foundry-classic&utm_source=chatgpt.com&pivots=programming-language-python-azure
+
 For serious enterprise composition (agent-to-agent flows, MCP tool servers, strict operational boundaries), that opacity becomes a constraint. It’s not “worse”, it’s a different substrate with different guarantees.
 
 ## 3) Foundry Hosted Agents (containerized, code-first)
