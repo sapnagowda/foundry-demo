@@ -11,11 +11,30 @@ Establish a repeatable local environment for the workshop (Python runtime, Azure
 ## Prerequisites
 - Azure subscription with permission to create resources (Foundry, App Insights, APIM, Logic Apps, Search)
 
-## Steps
-1. Install tooling: `az`, `azd`, and your preferred Python (3.10+ recommended).
-2. Create/activate a virtual environment.
-3. Install Python dependencies from the repo root: `pip install -r requirements.txt`.
-4. Copy `.env.example` → `.env` (repo root) and populate the values used by the early agent scripts.
+## Install tooling
+- Azure CLI (`az`): install via your preferred method for your OS.
+- Azure Developer CLI (`azd`) (required for deploying hosted agents):
+  - `brew tap azure/azd && brew install azd`
+- Python: 3.10+ recommended.
+
+## Create a virtual environment
+If you prefer the manual approach:
+- `python3 -m venv .venv`
+- `source .venv/bin/activate`
+- `python -m pip install --upgrade pip`
+
+Or use the provided bootstrap script (creates `.venv/` and installs dependencies):
+- `bash 00-environment-setup/scripts/bootstrap_venv.sh`
+
+## Install Python dependencies
+This repo pins its Python dependencies in `requirements.txt` (including `openai`, `agent_framework`, and `python-dotenv`):
+- `python -m pip install -r requirements.txt`
+
+## Configure environment variables
+- Copy `00-environment-setup/.env.example` → `.env` (repo root) and populate values as you reach steps that need them.
+
+## Verify
+- `bash 00-environment-setup/scripts/verify.sh`
 
 ## Proof (checklist)
 - [ ] `az account show` returns the intended subscription
