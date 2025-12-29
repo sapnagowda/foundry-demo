@@ -6,9 +6,6 @@ This step is intentionally “boring”: a minimal Microsoft Agent Framework age
 
 ![Foundry Agent Service overview diagram](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/media/agent-service-the-glue.png?view=foundry-classic)
 
-![Foundry private network isolation diagram](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/media/private-network-isolation.png?view=foundry-classic)
-
-![Containerized agents illustration](https://rios.engineer/wp-content/uploads/2024/03/ado-agent-aci-feature.png)
 
 This repository intentionally demonstrates **three distinct agent execution models** that coexist in Azure AI Foundry today. They are not incremental variations of the same thing — they represent **different levels of control over the agent runtime**.
 
@@ -163,7 +160,7 @@ None of this is reliable without containers.
 
 **Where in this repo**
 
-`04-azd-deploy-hosted-agent/`
+`02-azd-deploy-hosted-agent`
 
 This step shows:
 
@@ -172,22 +169,6 @@ This step shows:
 
 ---
 
-## How This Repo Is Structured (On Purpose)
-
-This repository is linear because the platform evolution is linear.
-
-| Step | What you learn | Why it exists |
-| --- | --- | --- |
-| 01 | Agent logic in isolation | Prove behavior |
-| 02–03 | Observability + model wiring | Prove signals and endpoints |
-| 04 | Hosted Agent deployment | Cross the container boundary |
-| 05+ | Identity, MCP, workflows | Use the new substrate |
-
-Each step answers one question:
-
-> What becomes possible *only* after this execution model exists?
-
----
 
 ## Key takeaway
 
@@ -199,7 +180,6 @@ It is:
 
 Everything else — Agent ID, MCP, A2A workflows, governance — is downstream of that single architectural change.
 
-This repo is built to make that undeniable.
 
 ---
 
