@@ -3,6 +3,8 @@
 ## Goal
 Attach an Entra “Agent ID” Conditional Access policy to the agent identity and prove measurable enforcement.
 
+An agent identity is a special service principal in Microsoft Entra ID. It represents an identity that the agent identity blueprint created and is authorized to impersonate.
+
 ## You will end with
 - Conditional Access for Agent ID policy targeting the agent identity
 - A triggerable allow/deny condition to demonstrate enforcement
@@ -17,4 +19,3 @@ Attach an Entra “Agent ID” Conditional Access policy to the agent identity a
 
 ## Next
 Continue to `../09-observability-proof`.
-
