@@ -78,3 +78,8 @@ agent = client.agents.create_agent(
 
 ## Next
 Continue to `../07-logic-apps-as-mcp-server`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

@@ -56,3 +56,8 @@ agent = client.agents.create_agent(
 
 ## Next
 Continue to `../09-apim-ai-gateway-mcp`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

@@ -1,5 +1,7 @@
 # Azure AI Foundry - Ignite 2025 Demo (Proof Driven)
 
+[![Author](https://img.shields.io/badge/Author-Ozgur%20Guler-orange)](#author)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-in%20progress-blue)](#)
 [![Azure](https://img.shields.io/badge/Azure-AI%20Foundry-0078D4)](#)
 [![OpenTelemetry](https://img.shields.io/badge/observability-OpenTelemetry-4c4c4c)](#)
@@ -52,3 +54,19 @@ This repo is a hands-on workshop for Microsoft Ignite 2025 announcements around 
 - Keep `.env` local; scripts expect the Azure OpenAI or Foundry values listed above.
 - When deploying or invoking hosted agents, align traces, APIM diagnostics, and Conditional Access results with the same `gen_ai.agent.id`.
 - For MCP steps, start with `07-logic-apps-as-mcp-server/` before layering connectors and APIM guardrails.
+
+---
+
+## Author
+
+**Ozgur Guler**
+AI Solution Leader, AI Innovation Hub
+Email: [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+
+---
+
+## License & Attribution
+
+This repository and its contents are the original work of Ozgur Guler. If you find this material helpful, please provide appropriate credit. For issues, suggestions, or collaboration opportunities, reach out via the email above.
+
+© 2025 Ozgur Guler. All rights reserved.

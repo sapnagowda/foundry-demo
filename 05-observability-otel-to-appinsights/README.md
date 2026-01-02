@@ -65,3 +65,8 @@ with tracer.start_as_current_span("agent-call") as span:
 
 ## Next
 Continue to `../06-foundry-iq-grounding-with-ai-search`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

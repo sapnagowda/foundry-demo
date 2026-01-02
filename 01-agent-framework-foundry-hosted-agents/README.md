@@ -61,3 +61,8 @@ You’re done with this step when the agent returns a model response using value
 ## Next
 
 Continue to `../02-observability-otel-to-appinsights`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

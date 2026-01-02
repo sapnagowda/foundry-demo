@@ -19,3 +19,8 @@ Deploy the agent as a Foundry hosted agent using `azd` so it runs as a managed s
 ## Next
 Continue to `../08-entra-agent-id-conditional-access`.
 
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.
+

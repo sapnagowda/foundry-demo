@@ -73,3 +73,8 @@ run = client.agents.runs.create(
 
 ## Next
 Continue to `../08-connectors-as-mcp-tools`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

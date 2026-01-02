@@ -44,3 +44,8 @@ This repo pins its Python dependencies in `requirements.txt` (including `openai`
 
 ## Next
 Continue to `../01-foundry-project-and-model-deployment`.
+
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.

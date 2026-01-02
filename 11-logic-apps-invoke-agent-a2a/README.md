@@ -18,3 +18,8 @@ Create a Logic Apps workflow that invokes the agent using the Agent Service conn
 ## Next
 Continue to `../16-optional-a2a-agent-api-in-apim`.
 
+---
+
+**Author:** Ozgur Guler | AI Solution Leader, AI Innovation Hub | [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
+© 2025 Ozgur Guler. All rights reserved.
+
