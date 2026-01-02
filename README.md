@@ -67,6 +67,6 @@ Email: [ozgur.guler1@gmail.com](mailto:ozgur.guler1@gmail.com)
 
 ## License & Attribution
 
-This repository and its contents are the original work of Ozgur Guler. If you find this material helpful, please provide appropriate credit. For issues, suggestions, or collaboration opportunities, reach out via the email above.
+This repository and its contents are the original work of Ozgur Guler. For issues, suggestions, or collaboration opportunities, reach out via the email above.
 
 © 2025 Ozgur Guler. All rights reserved.
