@@ -6,7 +6,7 @@
 [![APIM](https://img.shields.io/badge/governance-API%20Management%20AI%20Gateway-6f42c1)](#)
 [![MCP](https://img.shields.io/badge/tools-Model%20Context%20Protocol%20(MCP)-111827)](#)
 
-![Ignite demo storyline](Gemini_Generated_Image_frkx50frkx50frkx.png)
+![Ignite demo storyline](.assets/images/Gemini_Generated_Image_frkx50frkx50frkx.png)
 
 This repo is a hands-on workshop for Microsoft Ignite 2025 announcements around Azure AI Foundry. You move from a local Agent Framework script to a governed hosted agent with grounded knowledge, end-to-end tracing, Entra Agent ID Conditional Access, Logic Apps MCP tooling behind APIM AI Gateway, and tool registration in the Foundry control plane.
 
